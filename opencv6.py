@@ -20,7 +20,6 @@ image = np.zeros((512, 512, 3), np.uint8)
 cv2.line(image, (0, 0), (80, 80), (55, 200, 160), 5)
 
 
-
 #Drawing a Rectangle.
 #cv2.rectangle(image, (90, 90), (290, 290), (280, 280, 50), 5)
 cv2.rectangle(image, (90, 90), (290, 290), (280, 280, 50), -1)
@@ -29,12 +28,17 @@ cv2.rectangle(image, (90, 90), (290, 290), (280, 280, 50), -1)
 #Creating circles.
 cv2.circle(image, (340, 340), 60, (215, 75, 100), 4)
 
+
 #Creating polygons.
 
 #Defining the points.
 pts = np.array([[400, 400], [480, 400], [480, 500]], np.int32)
 cv2.polylines(image, [pts], True, (0, 0, 255), 2)
 cv2.imshow('Different shapes and sizes offered by openCV', image)
+
+
+#Putting text into the image - we use the cv2.putText() function
+cv2.putText(image, 'This is triangle below.', [399, 399], cv2.FONT_HERSHEY_COMPLEX, 2, (0, 0, 255), 1)
 
 
 cv2.waitKey(0)
