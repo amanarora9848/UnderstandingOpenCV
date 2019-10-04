@@ -1,0 +1,4 @@
+important resources :
+https://docs.opencv.org/2.4/opencv_tutorials.pdf
+https://buildmedia.readthedocs.org/media/pdf/opencv-python-tutroals/latest/opencv-python-tutroals.pdf
+https://www.tutorialspoint.com/opencv/index.htm
