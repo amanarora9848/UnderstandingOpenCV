@@ -1,0 +1,14 @@
+List of top projects to get started :
+
+Face Recognition 
+Emotion Recognition
+Object Recognition
+Face Tracking
+Drowsy Driver detection
+Traffic Management
+License Plate Recognition
+Lane Detection
+Colour Identification Robot
+Haar Cascade Object Detection Face & Eye
+Digit Recognition
+Human body skeleton detection and tracking
